@@ -24,6 +24,7 @@ const Navbar = () => {
             <div className="w-auto cursor-pointer hidden md:block ">
               <ul className="flex space-x-11 text-white">
                 <li className="font-Dongle text-3xl">Home</li>
+                <li className="font-Dongle text-3xl">About</li>
                 <li className="font-Dongle text-3xl">Projects</li>
                 <li className="font-Dongle text-3xl">Skills</li>
                 <li className="font-Dongle  text-3xl">Contact</li>
@@ -57,6 +58,9 @@ const Navbar = () => {
                 <ul className=" text-black  relative top-[10rem] left-[3rem]">
                   <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
                     HOME
+                  </li>
+                  <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
+                    ABOUT
                   </li>
                   <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
                     PROJECTS

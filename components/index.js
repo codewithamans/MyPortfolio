@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import About from "./About";
+import Main from "./Main";
+import Skills from "./Skills";
 
-export { Navbar, Footer, About };
+export { Navbar, Footer, Main, Skills };

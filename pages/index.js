@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { Navbar, Footer, About } from "@/components";
+import { Navbar, Footer, Main, Skills } from "@/components";
 export default function Home() {
   return (
     <>
       <Navbar />
-      <About />
-
+      <Main />
+      <Skills />
       <Footer />
     </>
   );
