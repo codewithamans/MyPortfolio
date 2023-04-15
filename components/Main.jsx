@@ -39,16 +39,16 @@ const Main = () => {
               Connect With Me, Let's Build Together
             </div>
             <div className="flex text justify-center">
-              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
                 <AiFillGithub size={25} />
               </div>
-              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
                 <AiFillLinkedin size={25} />
               </div>
-              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
                 <AiOutlineMail size={25} />
               </div>
-              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
                 <AiFillTwitterCircle size={25} />
               </div>
             </div>
