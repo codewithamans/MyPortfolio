@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -9,6 +10,14 @@ const About = () => {
       <div className="w-full mt-10 h-auto  flex justify-center">
         <div className="w-3/5  flex justify-center ">
           <div>
+            <div className="flex justify-center mb-2">
+              <Image
+                className=" rounded-full shadow-xl shadow-gray-500"
+                src="/./images/aman.jpg"
+                width="200"
+                height="200"
+              />
+            </div>
             <div className="font-extrabold font-Dongle  text-center  text-4xl md:text-7xl lg:text-9xl">
               Hi, I am
               <span className="font-Dancing mx-2 sm:mx-3 md:mx-4 lg:mx-5 text-blue-600 ">
@@ -29,14 +38,14 @@ const About = () => {
               Connect With Me, Let's Build Together
             </div>
             <div className="flex text justify-center">
-              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[2rem] m-3 flex justify-center">
-                <AiFillGithub />
+              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+                <AiFillGithub size={25} />
               </div>
-              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[2rem] m-3 flex justify-center">
-                <AiFillLinkedin />
+              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+                <AiFillLinkedin size={25} />
               </div>
-              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[2rem] m-3 flex justify-center">
-                <AiFillTwitterCircle />
+              <div className="rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+                <AiFillTwitterCircle size={25} />
               </div>
             </div>
           </div>
