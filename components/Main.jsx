@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <>
       <div className="w-full mt-10 h-auto  flex justify-center">
-        <div className="w-3/5 bg-yellow-300  flex justify-center ">
+        <div className="w-3/5  flex justify-center ">
           <div>
             <div className="flex justify-center mb-2">
               <Image

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import images from "../public/images/css1.png";
 
 const Skills = () => {
   return (
@@ -8,39 +9,43 @@ const Skills = () => {
           <div className="text-blue-600 tracking-wider font-Dongle font-bold text-sm sm:text-lg md:text-2xl lg:text-7xl underline-offset-4">
             SKILLS
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-8">
-            <div className="flex justify-center">
-              <Image src="/./images/html.png" width="100" height="100" />
+          <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-8">
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/html1.png" width="100" height="30" />
             </div>
-            <div className="flex justify-center">
-              <Image src="/./images/css.png" width="100" height="100" />
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/css1.png" width="100" height="30" />
             </div>
-            <div className="flex justify-center">
-              <Image src="/./images/javascript.png" width="100" height="100" />
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/javscript1.png" width="100" height="30" />
             </div>
-            <div className="flex justify-center">
-              <Image src="/./images/bootstrap.png" width="100" height="100" />
+
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/react2.png" width="100" height="100" />
             </div>
-            <div className="flex justify-center">
-              <Image src="/./images/react.png" width="100" height="100" />
-            </div>
-            <div className="flex justify-center">
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
               <Image src="/./images/nodejs.png" width="100" height="100" />
             </div>
-            <div className="flex justify-center">
-              <Image src="/./images/solidity.png" width="100" height="100" />
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/solidity1.png" width="70" height="100" />
             </div>
-            <div className="flex justify-center">
-              <Image src="/./images/nextjs.png" width="100" height="100" />
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/nextjs2.png" width="100" height="100" />
             </div>
-            <div className="flex justify-center">
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
               <Image src="/./images/tailwind.png" width="100" height="100" />
             </div>
-            <div className="flex justify-center">
-              <Image src="/./images/python.png" width="100" height="100" />
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/python.png" width="60" height="60" />
             </div>
-            <div className="flex justify-center">
-              <Image src="/./images/npm.png" width="100" height="100" />
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/npm1.png" width="100" height="100" />
+            </div>
+            <div className="flex hover:scale-125 ease-in duration-300 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/truffle.png" width="100" height="100" />
+            </div>
+            <div className="flex hover:scale-125 h-auto ease-in duration-300 justify-center object-fill rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]">
+              <Image src="/./images/hardhat.png" width="80" height="70" />
             </div>
           </div>
         </div>
