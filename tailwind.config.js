@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         Dongle: ["Dongle", "sans-serif"],
+        Dancing: ["Dancing Script", "cursive"],
       },
     },
   },
