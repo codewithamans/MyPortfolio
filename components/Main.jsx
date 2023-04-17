@@ -5,6 +5,8 @@ import {
   AiFillTwitterCircle,
   AiOutlineMail,
 } from "react-icons/ai";
+import Typewriter from "typewriter-effect";
+
 const Main = () => {
   return (
     <>
@@ -19,11 +21,26 @@ const Main = () => {
                 height="200"
               />
             </div>
-            <div className="font-extrabold font-Dongle  text-center  text-4xl md:text-7xl lg:text-9xl">
-              Hi, I am
-              <span className="font-Dancing mx-2 sm:mx-3 md:mx-4 lg:mx-5 text-blue-600 ">
-                Aman
-              </span>
+            <div className="font-extrabold font-Dongle  text-center  text-4xl md:text-6xl lg:text-8xl">
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                }}
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString("Hi I am ")
+                    .typeString(
+                      "<span class='font-Dancing  mx-2 sm:mx-3 md:mx-4 lg:mx-5 text-blue-600' > Aman</span> "
+                    )
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Hire Me !  I am open to work")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .start();
+                }}
+              />
             </div>
             <div className="font-extrabold text-center font-Dongle text-3xl md:text-5xl lg:text-6xl">
               A Frontend And Aspiring Blockchain Developer
