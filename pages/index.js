@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <Navbar />
       <Main />
-      {/* <Skills /> */}
+      <Skills />
       <Project />
       <Footer />
     </>

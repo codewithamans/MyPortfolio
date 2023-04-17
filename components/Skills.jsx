@@ -2,9 +2,26 @@ import Image from "next/image";
 import images from "../public/images/css1.png";
 
 const Skills = () => {
+  const data = [
+    { src: "/./images/html1.png", width: "100", height: "30" },
+    { src: "/./images/css1.png", width: "100", height: "30" },
+    { src: "/./images/javscript1.png", width: "100", height: "30" },
+    { src: "/./images/react2.png", width: "100", height: "30" },
+    { src: "/./images/react2.png", width: "100", height: "30" },
+    { src: "/./images/nodejs.png", width: "100", height: "30" },
+    { src: "/./images/solidity1.png", width: "100", height: "30" },
+    { src: "/./images/nextjs2.png", width: "100", height: "30" },
+    { src: "/./images/tailwind.png", width: "100", height: "30" },
+    { src: "/./images/python.png", width: "100", height: "30" },
+    { src: "/./images/truffle.png", width: "100", height: "30" },
+    { src: "/./images/hardhat.png", width: "100", height: "30" },
+    { src: "/./images/metamask.png", width: "100", height: "30" },
+    { src: "/./images/ethereum.png", width: "100", height: "30" },
+    { src: "/./images/npm1.png", width: "100", height: "30" },
+  ];
   return (
     <>
-      <div className="w-full mt-8 h-auto  flex justify-center">
+      <div className="w-full mt-8 lg:mt-32 h-auto  flex justify-center">
         <div className="w-4/5  ">
           <div className="text-blue-600 tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             SKILLS
