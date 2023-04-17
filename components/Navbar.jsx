@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 // import Logo from "./images/Logo.jpg";
@@ -11,26 +12,24 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="bg-[#433A33] w-full  h-auto z-[100] ">
-          <div className="flex items-center w-full justify-between h-full px-10">
-            <div className=" bg-red-400 font-bold">
-              <Image
-                src="/./images/Logo.jpg"
-                width="100"
-                height="10"
-                alt="No image"
-              />
+        <div className=" w-full shadow-xl shadow-gray-300 h-auto z-[100]  ">
+          <div className="flex  items-center py-4 w-full justify-between h-full px-10">
+            <div className="font-Arizonia text-3xl md:text-5xl lg:text-7xl">
+              Aman
             </div>
+
             <div className="w-auto cursor-pointer hidden md:block ">
-              <ul className="flex space-x-11 text-white">
+              <ul className="flex space-x-11 text-black ">
                 <li className="font-Dongle text-3xl">Home</li>
                 <li className="font-Dongle text-3xl">About</li>
                 <li className="font-Dongle text-3xl">Projects</li>
-                <li className="font-Dongle text-3xl">Skills</li>
+                <Link href="/#skills">
+                  <li className="font-Dongle text-3xl">Skills</li>
+                </Link>
                 <li className="font-Dongle  text-3xl">Contact</li>
               </ul>
             </div>
-            <div onClick={handleNav} className="md:hidden text-white ">
+            <div onClick={handleNav} className="md:hidden text-black ">
               <AiOutlineMenu size={35} />
             </div>
           </div>
@@ -65,9 +64,11 @@ const Navbar = () => {
                   <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
                     PROJECTS
                   </li>
-                  <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
-                    SKILLS
-                  </li>
+                  <Link onClick={handleNav} href="/#skills">
+                    <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
+                      SKILLS
+                    </li>
+                  </Link>
                   <li className="font-Dongle font-medium  text-4xl sm:text-6xl mb-3">
                     CONTACT
                   </li>

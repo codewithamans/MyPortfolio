@@ -1,11 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@300&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@700&family=Dongle:wght@300&family=Open+Sans&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html {
+  scroll-behavior: smooth;
+}
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide bg-gradient-to-r from-[#ecf0f3] to-[#fcfdff];
+    @apply bg-[#ecf0f3] overflow-x-hidden text-[#1f2937] tracking-wide bg-gradient-to-r from-[#ecf0f3] to-[#fcfdff];
   }
   button {
     @apply shadow-xl font-Open_sans font-semibold tracking-wider shadow-gray-500 rounded-xl uppercase bg-[#ecf0f3] text-black;
