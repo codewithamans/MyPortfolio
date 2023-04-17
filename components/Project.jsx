@@ -50,7 +50,7 @@ const Project = () => {
               return (
                 <div
                   key={index}
-                  className=" rounded-xl hover:scale-105  ease-in-out duration-100 items-center justify-center h-auto w-full shadow-xl shadow-gray-500 bg-gradient-to-r from-purple-200 to-blue-200"
+                  className=" rounded-xl lg:hover:scale-105  ease-in-out duration-100 items-center justify-center h-auto w-full shadow-xl shadow-gray-500 bg-[#ecf0f3]"
                 >
                   <div className="mx-4 mt-2 font-Dongle font-semibold text-sm md:text-lg lg:text-2xl xl:text-4xl">
                     {data.projectName}
