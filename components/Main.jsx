@@ -1,3 +1,4 @@
+import { data } from "autoprefixer";
 import Image from "next/image";
 import {
   AiFillGithub,
@@ -8,10 +9,16 @@ import {
 import Typewriter from "typewriter-effect";
 
 const Main = () => {
+  const data = {
+    main_desc:
+      " I'm a front-end developer who loves to build cool things.Currently, I am focusing on upgrading the skills of front-end while learning blockchain technology.I am looking for better opportunities to enhance my skills and knowledge. I am always ready to learn new tech stack .",
+    about_desc:
+      " Hello My name is aman singh. I'm a M.Sc graduate who loves to build cool stuffs in free time. I am self taught programmer",
+  };
   return (
     <>
-      <div className="w-full mt-10 h-auto  flex justify-center">
-        <div className="w-3/5  flex justify-center ">
+      <div className="w-full  mt-10 h-auto  flex justify-center">
+        <div className="w-3/5   flex justify-center ">
           <div>
             <div className="flex justify-center mb-2">
               <Image
@@ -46,11 +53,7 @@ const Main = () => {
               A Frontend And Aspiring Blockchain Developer
             </div>
             <div className="text-center font-Dongle font-medium text-sm md:text-lg lg:text-2xl">
-              I'm a front-end developer who loves to build cool things.
-              Currently, I am focusing on upgrading the skills of front-end
-              while learning blockchain technology.I am looking for better
-              opportunities to enhance my skills and knowledge. I am always
-              ready to learn new tech stack .
+              {data.main_desc}
             </div>
             <div className="text-center font-Dongle font-medium text-2xl md:text-3xl lg:text-4xl">
               Connect With Me, Let's Build Together
@@ -68,6 +71,24 @@ const Main = () => {
               <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
                 <AiFillTwitterCircle size={25} />
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full bg-slate-400 mt-8 lg:mt-32 h-auto  flex justify-center">
+        <div className="w-4/5 bg-red-300 ">
+          <div className="text-blue-600 tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
+            ABOUT ME
+          </div>
+          <div className="flex justify-between space-x-4">
+            <div>
+              <p className="font-Dongle bg-slate-200 font-medium text-lg md:text-2xl lg:text-4xl ">
+                {data.about_desc}
+              </p>
+              <button className="px-4 py-2 m-2">More Info</button>
+            </div>
+            <div className="hidden md:block bg-yellow-200  mx-4">
+              <Image src="/./images/avtar2.png" width={600} height={600} />
             </div>
           </div>
         </div>

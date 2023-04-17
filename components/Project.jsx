@@ -9,6 +9,8 @@ const Project = () => {
       description:
         "Built using Nextjs and Firebase. User can autheticate itself using email and password , user can signup if he/she is new. User have also option of google login.",
       techStack: "NEXTJS | FIREBASE",
+      gitHub: "",
+      liveLink: "",
     },
     {
       projectName: "FIREBASE AUTHENTICATION",
@@ -60,7 +62,7 @@ const Project = () => {
                     <div className="font-Dongle font-semibold text-xs md:text-base lg:text-xl xl:text-3xl ">
                       {data.techStack}
                     </div>
-                    <div className="flex space-x-3 justify-between mx-3 my-[-5px]">
+                    <div className="flex space-x-3 justify-between mx-3 my-[-10px] sm:my-[-8px]  md:my-[-6px] lg:my-[-4px] xl:my-[0px]">
                       <div>
                         <AiFillGithub size={30} />
                       </div>
