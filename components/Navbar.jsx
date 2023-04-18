@@ -29,6 +29,7 @@ const Navbar = () => {
     },
   ];
   console.log(router);
+
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
