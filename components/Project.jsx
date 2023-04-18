@@ -40,7 +40,10 @@ const Project = () => {
 
   return (
     <>
-      <div className="w-full mt-8 lg:mt-32 h-auto  flex justify-center">
+      <div
+        id="projects"
+        className="w-full mt-8 lg:mt-32 h-auto  flex justify-center"
+      >
         <div className="w-4/5  ">
           <div className="text-blue-600 tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             PROJECTS

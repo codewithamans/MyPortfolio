@@ -1,9 +1,34 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 // import Logo from "./images/Logo.jpg";
 const Navbar = () => {
+  const router = useRouter();
+  const data = [
+    {
+      name: "Home",
+      link: "/",
+    },
+    {
+      name: "About",
+      link: "/about",
+    },
+    {
+      name: "Projects",
+      link: "/#projects",
+    },
+    {
+      name: "Skills",
+      link: "/#skills",
+    },
+    {
+      name: "Contacts",
+      link: "/contacts",
+    },
+  ];
+  console.log(router);
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -20,13 +45,20 @@ const Navbar = () => {
 
             <div className="w-auto cursor-pointer hidden md:block ">
               <ul className="flex space-x-11 text-black ">
-                <li className="font-Dongle text-3xl">Home</li>
-                <li className="font-Dongle text-3xl">About</li>
-                <li className="font-Dongle text-3xl">Projects</li>
-                <Link href="/#skills">
-                  <li className="font-Dongle text-3xl">Skills</li>
-                </Link>
-                <li className="font-Dongle  text-3xl">Contact</li>
+                {data.map((data, index) => {
+                  return (
+                    <Link href={data.link}>
+                      <li className="font-Dongle text-3xl group">
+                        {data.name}
+                        <hr
+                          className={`bg-black h-[2px]  -mt-1  ease duration-200 group-hover:w-full transition-[width] ${
+                            router.asPath === data.link ? "w-full" : "w-0"
+                          }`}
+                        />
+                      </li>
+                    </Link>
+                  );
+                })}
               </ul>
             </div>
             <div onClick={handleNav} className="md:hidden text-black ">
