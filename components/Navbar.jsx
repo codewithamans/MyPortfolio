@@ -28,7 +28,6 @@ const Navbar = () => {
       link: "/contacts",
     },
   ];
-  console.log(router);
 
   const [nav, setNav] = useState(false);
 
@@ -53,7 +52,7 @@ const Navbar = () => {
                         {data.name}
                         <hr
                           className={`bg-black h-[2px]  -mt-1  ease duration-200 group-hover:w-full transition-[width] ${
-                            router.asPath === data.link ? "w-full" : "w-0"
+                            router.asPath != data.link ? "w-0" : "w-full"
                           }`}
                         />
                       </li>
