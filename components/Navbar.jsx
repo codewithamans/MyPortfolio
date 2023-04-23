@@ -25,7 +25,7 @@ const Navbar = () => {
     },
     {
       name: "Contacts",
-      link: "/contacts",
+      link: "/contact",
     },
   ];
 
