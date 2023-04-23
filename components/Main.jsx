@@ -17,7 +17,7 @@ const Main = () => {
   };
   return (
     <>
-      <div className="w-full  mt-10 h-auto  flex justify-center">
+      <div className="w-full  mt-10 h-auto   flex justify-center">
         <div className="w-3/5   flex justify-center ">
           <div>
             <div className="flex justify-center mb-2">
@@ -28,7 +28,7 @@ const Main = () => {
                 height="200"
               />
             </div>
-            <div className="font-extrabold font-Dongle  text-center  text-4xl md:text-6xl lg:text-8xl">
+            <div className="font-extrabold font-Dongle   text-center  text-4xl md:text-6xl lg:text-8xl">
               <Typewriter
                 options={{
                   autoStart: true,
