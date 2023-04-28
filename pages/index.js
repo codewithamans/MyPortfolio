@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Navbar, Footer, Main, Skills, Project } from "@/components";
 import { useEffect } from "react";
-import { useRouter } from "next/router";
+
 import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function Home() {
@@ -20,16 +20,22 @@ export default function Home() {
   return (
     <>
       <motion.div
-        className="h-1 w-full origin-top-left  bg-green-400 fixed "
-        style={{ scaleX }}
-      />
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.7, ease: "easeInOut" }}
+      >
+        <motion.div
+          className="h-1 w-full origin-top-left  bg-green-400 fixed "
+          style={{ scaleX }}
+        />
 
-      <Navbar />
+        <Navbar />
 
-      <Main />
-      <Skills />
-      <Project />
-      <Footer />
+        <Main />
+        <Skills />
+        <Project />
+        <Footer />
+      </motion.div>
     </>
   );
 }

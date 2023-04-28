@@ -13,7 +13,7 @@ const Footer = () => {
               </div>
               <div className="text-red-600  text-[4rem]">&hearts;</div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center ">
               <div className=" font-Dongle text-lg md:text-2xl lg:text-3xl  items-center">
                 <div className="mx-4 md:mt-3">Contact Me: </div>
                 <div className="flex">
