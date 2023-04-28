@@ -87,12 +87,17 @@ const Navbar = () => {
                   <AiOutlineClose size={35} />
                 </div>
                 <ul className=" text-black  relative top-[10rem] left-[3rem]">
-                  <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
-                    HOME
-                  </li>
-                  <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
-                    ABOUT
-                  </li>
+                  <Link onClick={handleNav} href="/">
+                    <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
+                      HOME
+                    </li>
+                  </Link>
+                  <Link href="/about">
+                    <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
+                      ABOUT
+                    </li>
+                  </Link>
+
                   <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
                     PROJECTS
                   </li>

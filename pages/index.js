@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function Home() {
-  // // const ref = useRef(null);
+  // const ref = useRef(null);
   // const { scrollYProgress } = useScroll();
   // const scaleX = useSpring(scrollYProgress, {
   //   stiffness: 100,
