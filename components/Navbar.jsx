@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { HiExternalLink } from "react-icons/hi";
+
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 // import Logo from "./images/Logo.jpg";
@@ -57,10 +57,6 @@ const Navbar = () => {
                     </Link>
                   );
                 })}
-                <button className="px-6 text-white flex gap-3 items-center rounded-md -mt-2 bg-black py-3">
-                  Resume
-                  <HiExternalLink className="-mt-1" size={30} />
-                </button>
               </ul>
             </div>
             <div onClick={handleNav} className="md:hidden text-black ">
@@ -109,12 +105,6 @@ const Navbar = () => {
                       CONTACT
                     </li>
                   </Link>
-                  <button className="px-5 text-white rounded-md flex gap-3 items-center bg-black py-2">
-                    Resume
-                    <div className="">
-                      <HiExternalLink className="-mt-1" size={30} />
-                    </div>
-                  </button>
                 </ul>
 
                 <div className="absolute bottom-0 font-Dongle font-medium text-4xl sm:text-6xl mb-3 w-full flex justify-center ">

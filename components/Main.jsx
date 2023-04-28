@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { HiExternalLink } from "react-icons/hi";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -7,6 +8,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
 const Main = () => {
   const data = {
@@ -92,7 +94,15 @@ const Main = () => {
               <p className="font-Dongle font-medium text-lg md:text-2xl lg:text-4xl m-2 italic ">
                 {data.about_desc}
               </p>
-              <button className="px-4 py-2 m-2">More Info</button>
+              <div className="md:flex gap-8 mt-8">
+                <button className="px-4 py-2 m-2">More Info</button>
+                <a href="/./Resume.pdf" download>
+                  <button className="px-6 mt-6 md:mt-1 text-white flex gap-3 items-center rounded-md  bg-black py-3">
+                    Resume
+                    <HiExternalLink className="-mt-1" size={30} />
+                  </button>
+                </a>
+              </div>
             </div>
             <div className="hidden lg:block   mx-4">
               <Image src="/./images/avtar2.png" width="600" height="600" />
