@@ -1,4 +1,4 @@
-import { data } from "autoprefixer";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import {
   AiFillGithub,
@@ -75,7 +75,14 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div className="w-full  mt-8 lg:mt-32 h-auto  flex justify-center">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{
+          opacity: 1,
+          transition: { duration: 0.5, ease: "easeIn", delay: 1 },
+        }}
+        className="w-full  mt-8 lg:mt-32 h-auto  flex justify-center"
+      >
         <div className="w-4/5  ">
           <div className="text-blue-600 tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             ABOUT ME
@@ -92,7 +99,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

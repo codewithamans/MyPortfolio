@@ -5,9 +5,9 @@ const about = () => {
   return (
     <>
       <motion.div
-        initial={{ x: "-90%" }}
+        initial={{ x: "-100%" }}
         animate={{ x: "0%" }}
-        transition={{ duration: 0.7, ease: "linear" }}
+        transition={{ duration: 0.5, ease: "linear" }}
         exit={{ opacity: 1 }}
       >
         <Navbar />
