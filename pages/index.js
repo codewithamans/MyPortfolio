@@ -54,15 +54,7 @@ export default function Home() {
       >
         <Skills />
       </motion.div>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1,
-          transition: { duration: 0.5, ease: "easeIn", delay: 2 },
-        }}
-      >
-        <Project />
-      </motion.div>
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
