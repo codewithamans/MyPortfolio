@@ -25,7 +25,7 @@ const Skills = () => {
         className="w-full mt-8 lg:mt-32 h-auto  flex justify-center"
       >
         <div className="w-4/5  ">
-          <div className="text-blue-600 tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
+          <div className="text-[#6E07F3]  tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             SKILLS
           </div>
           <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-8">
@@ -33,7 +33,7 @@ const Skills = () => {
               return (
                 <div
                   key={index}
-                  className="flex hover:scale-125 ease-in duration-200 justify-center rounded-full shadow-xl shadow-gray-400 w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]"
+                  className="flex hover:scale-125 ease-in duration-200 justify-center rounded-full  w-[4rem] sm:w-[5rem] md:w-[5rem] lg:w-[6rem]"
                 >
                   <Image
                     src={data.src}

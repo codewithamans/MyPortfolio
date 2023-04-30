@@ -35,9 +35,9 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className=" w-full shadow-xl shadow-gray-300 h-auto z-[100]  ">
+        <div className=" w-full md:mb-20 h-auto z-[100]  ">
           <div className="flex  items-center py-4 w-full justify-between h-full px-10">
-            <div className="font-Arizonia text-3xl md:text-5xl lg:text-7xl">
+            <div className="font-Arizonia font-bold text-[#6E07F3] text-3xl md:text-5xl lg:text-7xl">
               Aman
             </div>
 

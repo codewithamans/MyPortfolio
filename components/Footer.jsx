@@ -5,13 +5,15 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="w-full mt-8 md:mt-16 lg:mt-32  bg-[#ecf0f3] shadow-xl shadow-gray-300 h-auto z-[100] ">
+        <div className="w-full  md:py-16 pb-8 mt-8 md:mt-16 lg:mt-32  bg-[#6E07F3] text-white shadow-xl shadow-gray-300 h-auto z-[100] ">
           <div className="grid md:grid-cols-2 gap-2 md:gap-4 lg:gap-8">
             <div className=" font-Dongle flex justify-center">
-              <div className="flex items-center text-xl md:text-3xl lg:text-5xl ">
+              <div className="flex items-center text-lg md:text-3xl lg:text-5xl ">
                 Build By AMAN SINGH
               </div>
-              <div className="text-red-600  text-[4rem]">&hearts;</div>
+              <div className="text-red-600 text-[3rem]  md:text-[4rem]">
+                &hearts;
+              </div>
             </div>
             <div className="flex justify-center ">
               <div className=" font-Dongle text-lg md:text-2xl lg:text-3xl  items-center">

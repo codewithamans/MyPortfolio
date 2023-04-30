@@ -40,7 +40,7 @@ const Main = () => {
                   typewriter
                     .typeString("Hi I am ")
                     .typeString(
-                      "<span class='font-Dancing  mx-2 sm:mx-3 md:mx-4 lg:mx-5 text-blue-600' > Aman</span> "
+                      "<span class='font-Dancing  mx-2 sm:mx-3 md:mx-4 lg:mx-5 text-[#6E07F3]' > Aman</span> "
                     )
                     .pauseFor(1000)
                     .deleteAll()
@@ -86,7 +86,7 @@ const Main = () => {
         className="w-full  mt-8 lg:mt-32 h-auto  flex justify-center"
       >
         <div className="w-4/5  ">
-          <div className="text-blue-600 tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
+          <div className="text-[#6E07F3] tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             ABOUT ME
           </div>
           <div className="grid lg:grid-cols-3 gap-4">
@@ -95,9 +95,9 @@ const Main = () => {
                 {data.about_desc}
               </p>
               <div className="md:flex gap-8 mt-8">
-                <button className="px-4 py-2 m-2">More Info</button>
+                <button className="button px-4 py-2 m-2">More Info</button>
                 <a href="/./Resume.pdf" download>
-                  <button className="px-6 mt-6 md:mt-1 text-white flex gap-3 items-center rounded-md  bg-black py-3">
+                  <button className="px-6 font-Open_sans  font-semibold tracking-wider   uppercase border-2    mt-6 md:mt-1 text-white flex gap-3 items-center rounded-full  bg-black py-3">
                     Resume
                     <HiExternalLink className="-mt-1" size={30} />
                   </button>
