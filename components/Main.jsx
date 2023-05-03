@@ -20,7 +20,12 @@ const Main = () => {
   return (
     <>
       <div className="w-full  mt-10 h-auto   flex justify-center">
-        <div className="w-3/5   flex justify-center ">
+        <div
+          className="w-3/5   flex justify-center "
+          data-aos="fade-right"
+          data-aos-duration="500"
+          data-aos-delay="500"
+        >
           <div>
             <div className="flex justify-center mb-2">
               <Image
@@ -77,15 +82,13 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1,
-          transition: { duration: 0.5, ease: "easeIn", delay: 1 },
-        }}
-        className="w-full  mt-8 lg:mt-32 h-auto  flex justify-center"
-      >
-        <div className="w-4/5  ">
+      <div className="w-full  mt-8 lg:mt-32 h-auto  flex justify-center">
+        <div
+          className="w-4/5  "
+          data-aos="fade-left"
+          data-aos-duration="500"
+          data-aos-delay="500"
+        >
           <div className="text-[#6E07F3] tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             ABOUT ME
           </div>
@@ -95,7 +98,9 @@ const Main = () => {
                 {data.about_desc}
               </p>
               <div className="md:flex gap-8 mt-8">
-                <button className="button px-4 py-2 m-2">More Info</button>
+                <Link href="/about">
+                  <button className="button px-4 py-2 m-2">More Info</button>
+                </Link>
                 <a href="/./Resume.pdf" download>
                   <button className="px-6 font-Open_sans  font-semibold tracking-wider   uppercase border-2    mt-6 md:mt-1 text-white flex gap-3 items-center rounded-full  bg-black py-3">
                     Resume
@@ -109,7 +114,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </motion.div>
+      </div>
     </>
   );
 };

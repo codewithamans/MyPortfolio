@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] overflow-x-hidden text-[#1f2937] tracking-wide bg-gradient-to-r from-[#ecf0f3] to-[#fcfdff];
+    @apply bg-white overflow-x-hidden text-[#1f2937] tracking-wide bg-gradient-to-r from-[#ecf0f3] to-[#fcfdff];
   }
   .button {
     @apply font-Open_sans rounded-full font-semibold tracking-wider  hover:bg-[#6E07F3] hover:text-white uppercase border-2 border-[#6E07F3] bg-[#ecf0f3] text-[#6E07F3];

@@ -3,8 +3,16 @@ import { Navbar, Footer, Main, Skills, Project } from "@/components";
 import { useEffect } from "react";
 
 import { motion, useScroll, useSpring } from "framer-motion";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      offset: 80,
+    });
+  }, []);
   // const ref = useRef(null);
   // const { scrollYProgress } = useScroll();
   // const scaleX = useSpring(scrollYProgress, {
@@ -30,30 +38,13 @@ export default function Home() {
         // exit={{ opacity: 1 }}
       > */}
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: 0.5, ease: "easeIn" } }}
-      >
+      <div data-aos="fade-down" data-aos-duration="1500">
         <Navbar />
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1,
-          transition: { duration: 0.5, ease: "easeIn", delay: 0.5 },
-        }}
-      >
-        <Main />
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1,
-          transition: { duration: 0.5, ease: "easeIn", delay: 1.5 },
-        }}
-      >
-        <Skills />
-      </motion.div>
+      </div>
+
+      <Main />
+
+      <Skills />
 
       <motion.div
         initial={{ opacity: 0 }}
