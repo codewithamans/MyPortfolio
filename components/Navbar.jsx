@@ -42,14 +42,14 @@ const Navbar = () => {
             </div>
 
             <div className="w-auto cursor-pointer hidden md:block ">
-              <ul className="flex space-x-11 text-black ">
+              <ul className="flex space-x-11 text-black  ">
                 {data.map((data, index) => {
                   return (
                     <Link href={data.link}>
-                      <li className="font-Dongle text-3xl group">
+                      <li className="font-Dongle text-3xl hover:text-[#6E07F3] group">
                         {data.name}
                         <hr
-                          className={`bg-black h-[2px]  -mt-1  ease duration-200 group-hover:w-full transition-[width] ${
+                          className={`bg-[#6E07F3] h-[3px]  -mt-1  ease duration-200 group-hover:w-full transition-[width] ${
                             router.asPath != data.link ? "w-0" : "w-full"
                           }`}
                         />
@@ -73,41 +73,41 @@ const Navbar = () => {
             <div
               className={
                 nav
-                  ? "fixed  left-0 top-0 h-screen bg-[#e4e8ec] w-[85%] sm:w-[75%] md:hidden ease-in duration-500"
-                  : "fixed left-[-100%] top-0 h-screen bg-[#e4e8ec] w-[85%] sm:w-[75%] md:hidden ease-out duration-500 "
+                  ? "fixed  left-0 top-0  min-h-screen bg-black w-[85%] sm:w-[75%] md:hidden ease-in duration-500"
+                  : "fixed left-[-100%] top-0 h-screen  w-[85%] sm:w-[75%] md:hidden ease-linear duration-500 "
               }
             >
               <div>
                 <div
                   onClick={handleNav}
-                  className="rounded-full shadow-xl absolute right-6 top-6  shadow-gray-400 cursor-pointer p-3 sm:p-4 w-[4rem] m-5 flex justify-center"
+                  className=" absolute text-white right-0 cursor-pointer p-3 sm:p-4 w-[4rem] m-5 flex justify-center"
                 >
-                  <AiOutlineClose size={35} />
+                  <AiOutlineClose size={30} />
                 </div>
-                <ul className=" text-black  relative top-[10rem] left-[3rem]">
+                <ul className=" text-white  relative top-[6rem] left-[3rem]">
                   <Link onClick={handleNav} href="/">
-                    <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
+                    <li className="font-Dongle font-medium text-3xl sm:text-6xl mb-3">
                       HOME
                     </li>
                   </Link>
                   <Link href="/about">
-                    <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
+                    <li className="font-Dongle font-medium text-3xl sm:text-6xl mb-3">
                       ABOUT
                     </li>
                   </Link>
                   <Link href="/project">
-                    <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
+                    <li className="font-Dongle font-medium text-3xl sm:text-6xl mb-3">
                       PROJECTS
                     </li>
                   </Link>
                   <Link href="/contact">
-                    <li className="font-Dongle font-medium text-4xl sm:text-6xl mb-3">
+                    <li className="font-Dongle font-medium text-3xl sm:text-6xl mb-3">
                       CONTACT
                     </li>
                   </Link>
                 </ul>
 
-                <div className="absolute bottom-0 font-Dongle font-medium text-4xl sm:text-6xl mb-3 w-full flex justify-center ">
+                <div className="absolute  text-white bottom-0 font-Dongle font-medium text-4xl sm:text-6xl mb-3 w-full flex justify-center ">
                   Let's Build Together
                 </div>
               </div>

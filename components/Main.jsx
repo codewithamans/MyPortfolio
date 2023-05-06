@@ -20,12 +20,7 @@ const Main = () => {
   return (
     <>
       <div className="w-full  mt-10 h-auto   flex justify-center">
-        <div
-          className="w-3/5   flex justify-center "
-          data-aos="fade-right"
-          data-aos-duration="500"
-          data-aos-delay="500"
-        >
+        <div className="w-3/5   flex justify-center ">
           <div>
             <div className="flex justify-center mb-2">
               <Image
@@ -56,39 +51,34 @@ const Main = () => {
                 }}
               />
             </div>
-            <div className="font-extrabold text-center font-Dongle text-3xl md:text-5xl lg:text-6xl">
+            {/* <div className="font-extrabold text-center font-Dongle text-3xl md:text-5xl lg:text-6xl">
               A Frontend And Aspiring Blockchain Developer
-            </div>
-            <div className="text-center font-Dongle font-medium text-sm md:text-lg lg:text-2xl">
+            </div> */}
+            <div className="text-center italic font-Dongle font-medium text-sm md:text-lg lg:text-2xl">
               {data.main_desc}
             </div>
             <div className="text-center font-Dongle font-medium text-2xl md:text-3xl lg:text-4xl">
               Connect With Me, Let's Build Together
             </div>
             <div className="flex text justify-center">
-              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-200 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
                 <AiFillGithub size={25} />
               </div>
-              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
-                <AiFillLinkedin size={25} />
+              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-200 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+                <AiFillLinkedin color="#0077B5" size={25} />
               </div>
-              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
-                <AiOutlineMail size={25} />
+              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-200 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+                <AiOutlineMail color="#4285f4" size={25} />
               </div>
-              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-400 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
-                <AiFillTwitterCircle size={25} />
+              <div className="hover:scale-125 h-auto ease-in duration-100 rounded-full shadow-xl shadow-gray-200 cursor-pointer p-2 sm:p-2 w-[3rem] m-3 flex justify-center">
+                <AiFillTwitterCircle color="00ACEE" size={25} />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="w-full  mt-8 lg:mt-32 h-auto  flex justify-center">
-        <div
-          className="w-4/5  "
-          data-aos="fade-left"
-          data-aos-duration="500"
-          data-aos-delay="500"
-        >
+        <div className="w-4/5  ">
           <div className="text-[#6E07F3] tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             ABOUT ME
           </div>
@@ -99,7 +89,9 @@ const Main = () => {
               </p>
               <div className="md:flex gap-8 mt-8">
                 <Link href="/about">
-                  <button className="button px-4 py-2 m-2">More Info</button>
+                  <button className="button bg-white px-4 py-2 m-2">
+                    More Info
+                  </button>
                 </Link>
                 <a href="/./Resume.pdf" download>
                   <button className="px-6 font-Open_sans  font-semibold tracking-wider   uppercase border-2    mt-6 md:mt-1 text-white flex gap-3 items-center rounded-full  bg-black py-3">

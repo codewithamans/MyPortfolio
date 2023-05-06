@@ -38,9 +38,7 @@ export default function Home() {
         // exit={{ opacity: 1 }}
       > */}
 
-      <div data-aos="fade-down" data-aos-duration="1500">
-        <Navbar />
-      </div>
+      <Navbar />
 
       <Main />
 
