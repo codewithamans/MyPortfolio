@@ -34,8 +34,8 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav>
-        <div className=" w-full md:mb-20 h-auto z-[100]  ">
+      <nav className="w-full flex justify-center">
+        <div className="container md:mb-20 h-auto z-[100]  ">
           <div className="flex  items-center py-4 w-full justify-between h-full px-10">
             <div className="font-Arizonia font-bold text-[#6E07F3] text-3xl md:text-5xl lg:text-7xl">
               Aman

@@ -24,7 +24,7 @@ const Main = () => {
           <div>
             <div className="flex justify-center mb-2">
               <Image
-                className=" rounded-full motion-safe:animate-bounce  shadow-xl shadow-gray-500"
+                className=" rounded-full animate-bounce  shadow-xl shadow-gray-500"
                 src="/./images/aman.jpg"
                 width="200"
                 height="200"
