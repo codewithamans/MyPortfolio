@@ -79,7 +79,7 @@ const Main = () => {
       </div>
       <div className="w-full  mt-8 lg:mt-32 h-auto  flex justify-center">
         <div className="w-4/5  ">
-          <div className="text-[#6E07F3] tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
+          <div className="text-purple-600  tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             ABOUT ME
           </div>
           <div className="grid lg:grid-cols-3 gap-4">
@@ -97,12 +97,7 @@ const Main = () => {
                     MORE INFO
                   </button>
                 </Link>
-                {/* <Link href="/about" className="relative overflow-hidden">
-                  <span class="absolute bottom-0 left-0 flex w-full  h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
-                  <button className="button relative bg-white px-4 py-2 m-2">
-                    More Info
-                  </button>
-                </Link> */}
+
                 <a href="/./Resume.pdf" download>
                   <button className="px-6 font-Open_sans  font-semibold tracking-wider   uppercase border-2    mt-6 md:mt-1 text-white flex gap-3 items-center rounded-full  bg-black py-3">
                     Resume

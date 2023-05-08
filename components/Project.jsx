@@ -43,7 +43,7 @@ const Project = () => {
     <>
       <div className="w-full  mt-8 lg:mt-20 h-auto  flex justify-center">
         <div className="w-3/4  ">
-          <div className="text-[#6E07F3] tracking-wider font-Dongle font-bold text-3xl lg:mb-10 xl:mb-16  md:text-4xl lg:text-7xl underline-offset-4">
+          <div className="text-purple-600  tracking-wider font-Dongle font-bold text-3xl lg:mb-10 xl:mb-16  md:text-4xl lg:text-7xl underline-offset-4">
             PROJECTS
           </div>
 

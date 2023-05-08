@@ -22,7 +22,7 @@ const Skills = () => {
     <>
       <div className="w-full mt-8 lg:mt-32 h-auto  flex justify-center">
         <div className="w-4/5  ">
-          <div className="text-[#6E07F3]  tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
+          <div className="text-purple-600   tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             SKILLS
           </div>
           <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-8">

@@ -1,5 +1,12 @@
 import Image from "next/image";
-import { Navbar, Footer, Main, Skills, Project } from "@/components";
+import {
+  Navbar,
+  Footer,
+  Main,
+  Skills,
+  Project,
+  Experience,
+} from "@/components";
 import { useEffect } from "react";
 
 import { motion, useScroll, useSpring } from "framer-motion";
@@ -41,6 +48,7 @@ export default function Home() {
       <Navbar />
 
       <Main />
+      <Experience />
 
       <Skills />
 

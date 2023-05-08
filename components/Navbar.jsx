@@ -77,18 +77,18 @@ const Navbar = () => {
             <div
               className={
                 nav
-                  ? "fixed  left-0 top-0  min-h-screen bg-white w-[85%] sm:w-[75%] md:hidden ease-in duration-300"
+                  ? "fixed  left-0 top-0  min-h-screen bg-purple-600 w-[85%] sm:w-[75%] md:hidden ease-in duration-300"
                   : "fixed left-[-100%] top-0 h-screen  w-[85%] sm:w-[75%] md:hidden ease-linear duration-300 "
               }
             >
               <div>
                 <div
                   onClick={handleNav}
-                  className=" absolute text-purple-900 font-bold right-0 cursor-pointer p-3 sm:p-4 w-[4rem] m-5 flex justify-center"
+                  className=" absolute text-white font-bold right-0 cursor-pointer p-3 sm:p-4 w-[4rem] m-5 flex justify-center"
                 >
                   <AiOutlineClose size={30} />
                 </div>
-                <ul className=" text-purple-900 font-bold  relative top-[6rem] left-[3rem]">
+                <ul className=" text-white font-medium relative top-[6rem] left-[3rem]">
                   <Link onClick={handleNav} href="/">
                     <li className="font-Dongle  text-3xl sm:text-6xl mb-3">
                       HOME
@@ -111,7 +111,7 @@ const Navbar = () => {
                   </Link>
                 </ul>
 
-                <div className="absolute  text-purple-900 font-semibold bottom-0 font-Dongle font-medium text-4xl sm:text-6xl mb-3 w-full flex justify-center ">
+                <div className="absolute  text-white bottom-0 font-Dongle font-medium text-4xl sm:text-6xl mb-3 w-full flex justify-center ">
                   Let's Build Together
                 </div>
               </div>
