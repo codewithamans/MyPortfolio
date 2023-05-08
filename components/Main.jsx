@@ -24,7 +24,7 @@ const Main = () => {
           <div>
             <div className="flex justify-center mb-2">
               <Image
-                className=" rounded-full shadow-xl shadow-gray-500"
+                className=" rounded-full motion-safe:animate-bounce  shadow-xl shadow-gray-500"
                 src="/./images/aman.jpg"
                 width="200"
                 height="200"
@@ -88,11 +88,21 @@ const Main = () => {
                 {data.about_desc}
               </p>
               <div className="md:flex gap-8 mt-8">
-                <Link href="/about">
-                  <button className="button bg-white px-4 py-2 m-2">
-                    More Info
+                <Link
+                  href="/about"
+                  class="px-6 w-[10rem] py-3 button relative rounded-full group overflow-hidden font-medium bg-purple-50 text-purple-600 flex items-center justify-center"
+                >
+                  <span class="absolute bottom-0 left-0 flex w-full  h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
+                  <button class="relative  group-hover:text-white">
+                    MORE INFO
                   </button>
                 </Link>
+                {/* <Link href="/about" className="relative overflow-hidden">
+                  <span class="absolute bottom-0 left-0 flex w-full  h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
+                  <button className="button relative bg-white px-4 py-2 m-2">
+                    More Info
+                  </button>
+                </Link> */}
                 <a href="/./Resume.pdf" download>
                   <button className="px-6 font-Open_sans  font-semibold tracking-wider   uppercase border-2    mt-6 md:mt-1 text-white flex gap-3 items-center rounded-full  bg-black py-3">
                     Resume
