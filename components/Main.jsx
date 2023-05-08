@@ -24,10 +24,10 @@ const Main = () => {
           <div>
             <div className="flex justify-center mb-2">
               <Image
-                className="w-80 lg:w-96 -mt-12 lg:-mt-28 "
-                src="/./images/host.png"
-                width="100"
-                height="100"
+                className="w-80 lg:w-96 -mt-20 md:-mt-28 lg:-mt-36 "
+                src="/./images/hacker.jpg"
+                width="400"
+                height="400"
               />
             </div>
             <div className="font-extrabold font-Dongle   text-center  text-4xl md:text-6xl lg:text-8xl">
