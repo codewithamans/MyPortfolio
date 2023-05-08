@@ -24,10 +24,10 @@ const Main = () => {
           <div>
             <div className="flex justify-center mb-2">
               <Image
-                className=" rounded-full animate-bounce  shadow-xl shadow-gray-500"
-                src="/./images/aman.jpg"
-                width="200"
-                height="200"
+                className="w-80 lg:w-96 -mt-12 lg:-mt-28 "
+                src="/./images/host.png"
+                width="100"
+                height="100"
               />
             </div>
             <div className="font-extrabold font-Dongle   text-center  text-4xl md:text-6xl lg:text-8xl">
