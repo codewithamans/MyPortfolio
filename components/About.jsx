@@ -43,64 +43,64 @@ const About = () => {
             <div className="md:w-4/5 ">
               <ol className="relative border-l border-gray-300 ">
                 <li className="ml-6 mb-10">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-white">
                     1
                   </span>
-                  <h3 className="mb-1 text-3xl font-Dongle font-bold text-gray-900 dark:text-white">
+                  <h3 className="mb-1 text-3xl mx-2 font-Dongle font-bold text-gray-900 dark:text-gray-700">
                     M.Sc. (COMPUTER SCIENCE)
                   </h3>
 
-                  <h3 className="mb-1 text-sm font-normal  text-gray-400 dark:text-gray-500">
-                    2020-2020
+                  <h3 className="mb-1 text-sm mx-2 font-normal  text-gray-400 dark:text-gray-500">
+                    2020-2022
                   </h3>
-                  <p className=" text-2xl font-Dongle text-gray-500 dark:text-gray-400">
+                  <p className=" text-2xl mx-2 font-Dongle text-gray-500 dark:text-gray-400">
                     Graduated from University Of Lucknow with 72.5% aggregates.
                   </p>
                 </li>
                 <li className="ml-6 mb-10">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-white">
                     2
                   </span>
-                  <h3 className="mb-1 text-3xl font-Dongle font-bold text-gray-900 dark:text-white">
+                  <h3 className="mb-1 text-3xl mx-2 font-Dongle font-bold text-gray-900 dark:text-gray-700">
                     B.Sc. (COMPUTER SCIENCE)
                   </h3>
 
-                  <h3 className="mb-1 text-sm font-normal  text-gray-400 dark:text-gray-500">
+                  <h3 className="mb-1 text-sm mx-2 font-normal  text-gray-400 dark:text-gray-500">
                     2017-2020
                   </h3>
-                  <p className=" text-2xl font-Dongle text-gray-500 dark:text-gray-400">
+                  <p className=" text-2xl mx-2 font-Dongle text-gray-500 dark:text-gray-400">
                     Graduated from University Of Lucknow with 65.3% aggregates.
                   </p>
                 </li>
 
                 <li className="ml-6 mb-10">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-white">
                     3
                   </span>
-                  <h3 className="mb-1 text-3xl font-Dongle font-bold text-gray-900 dark:text-white">
+                  <h3 className="mb-1 mx-2 text-3xl font-Dongle font-bold text-gray-900 dark:text-gray-700">
                     CLASS 12 | CBSE
                   </h3>
 
-                  <h3 className="mb-1 text-sm font-normal  text-gray-400 dark:text-gray-500">
+                  <h3 className="mb-1 mx-2 text-sm font-normal  text-gray-400 dark:text-gray-500">
                     2015-2017
                   </h3>
-                  <p className=" text-2xl font-Dongle text-gray-500 dark:text-gray-400">
+                  <p className=" text-2xl mx-2 font-Dongle text-gray-500 dark:text-gray-400">
                     Completed from Rani Laxmi Bai Memorial School with 91%
                     aggregates.
                   </p>
                 </li>
-                <li className="ml-6 mb-10">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                <li className="ml-6  mb-10">
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-white">
                     4
                   </span>
-                  <h3 className="mb-1 text-3xl font-Dongle font-bold text-gray-900 dark:text-white">
+                  <h3 className="mb-1 mx-2 text-3xl font-Dongle font-bold text-gray-900 dark:text-gray-700">
                     CLASS 10 | CBSE
                   </h3>
 
-                  <h3 className="mb-1 text-sm font-normal  text-gray-400 dark:text-gray-500">
+                  <h3 className="mb-1 mx-2  text-sm font-normal  text-gray-400 dark:text-gray-500">
                     2013-2015
                   </h3>
-                  <p className=" text-2xl font-Dongle text-gray-500 dark:text-gray-400">
+                  <p className=" text-2xl mx-2  font-Dongle text-gray-500 dark:text-gray-400">
                     Completed from Rani Laxmi Bai Memorial School with 10
                     C.G.P.A.
                   </p>

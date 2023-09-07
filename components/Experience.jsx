@@ -12,10 +12,10 @@ const Experience = () => {
             <div className="md:w-4/5 ">
               <ol className="relative border-l border-gray-300 ">
                 <li className="ml-6 mb-10">
-                  <span className="absolute lg:text-xl flex  items-center justify-center w-6 h-6 lg:w-10 lg:h-10 bg-purple-200 rounded-full -left-3 lg:-left-5 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span className="absolute lg:text-xl flex  items-center justify-center w-6 h-6 lg:w-10 lg:h-10 bg-purple-200 rounded-full -left-3 lg:-left-5 ring-8 ring-white  ">
                     1
                   </span>
-                  <h3 className="mb-1 lg:ml-4 text-2xl md:text-4xl lg:text-5xl font-Dongle font-bold text-gray-900 dark:text-white">
+                  <h3 className="mb-1 lg:ml-4 text-2xl md:text-4xl lg:text-5xl font-Dongle font-bold text-gray-700">
                     ZYLICON HACKDEV TECHNOLGIES
                   </h3>
 
@@ -34,10 +34,10 @@ const Experience = () => {
                   </p>
                 </li>
                 <li className="ml-6 mb-10">
-                  <span className="absolute lg:text-xl flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 lg:-left-5 bg-purple-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span className="absolute lg:text-xl flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 lg:-left-5 bg-purple-200 rounded-full -left-3 ring-8 ring-white ">
                     2
                   </span>
-                  <h3 className="mb-1 text-2xl lg:ml-4 md:text-4xl lg:text-5xl font-Dongle font-bold text-gray-900 dark:text-white">
+                  <h3 className="mb-1 text-2xl lg:ml-4 md:text-4xl lg:text-5xl font-Dongle font-bold text-gray-700">
                     ONLINE TUTOR
                   </h3>
 
