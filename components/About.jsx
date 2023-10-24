@@ -26,6 +26,33 @@ const About = () => {
           <div className="text-purple-600  tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             KNOW ME...
           </div>
+          <p className="mb-1  mt-4 font-Dongle text-lg md:text-2xl lg:text-3xl  mx-2 font-normal  text-gray-900 ">
+            I am a proud <span className="one"> Computer Science </span>
+            graduate , having recently earned my master's degree with a First
+            Division distinction. My passion lies at the intersection of coding
+            and teaching. Over the past few years, I've been privileged to
+            educate students in Mathematics, Physics, and Computer Science. As a
+            fervent educator, I'm committed to sparking curiosity, driving
+            innovation, and instilling an enduring love for learning in my
+            students. Additionally, I'm a dedicated night owl, which means my
+            best work often unfolds after sunset.
+          </p>
+          <p className="mb-1 mt-4 font-Dongle text-lg md:text-2xl lg:text-3xl  mx-2 font-normal  text-gray-900">
+            Diving deep into <span className="two">JavaScript's </span> ocean,
+            I've strong knowledge in ReactJS, NextJS, and Redux. Beyond the
+            front-end realm, my interests expand to the intriguing universes of
+            Blockchain and AI. With a sharp focus on smart contracts and web3's
+            futuristic trends—like DeFi, NFTs, and Cryptocurrency—I'm always at
+            the frontier of digital innovation.
+          </p>
+          <p className="mb-1 mt-4 font-Dongle text-lg md:text-2xl lg:text-3xl  mx-2 font-normal  text-gray-900">
+            In the quiet moments away a from the keyboard, you'll find me doing
+            exercises, diving deep into the latest cinematic masterpieces, or
+            indulging in some lively banter with friends. While binge-watching
+            web series isn't typically my cup of tea, there are some exceptions
+            to the rule. "Squid Game," "Alice in Borderland," and "Asur" have
+            all captivated my attention and made it to my list of must-watches.
+          </p>
           <div className="text-purple-600  mt-8 md:mt-20 tracking-wider font-Dongle font-bold text-3xl  md:text-4xl lg:text-7xl underline-offset-4">
             ACHIEVEMENTS
           </div>

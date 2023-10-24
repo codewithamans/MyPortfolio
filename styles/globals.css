@@ -13,4 +13,38 @@ html {
   .button {
     @apply font-Open_sans rounded-full font-semibold tracking-wider   uppercase border-2 border-purple-600 text-[#6E07F3];
   }
+  .one {
+    padding: 2px 4px;
+    background: none;
+    border: none;
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 3px;
+    cursor: pointer;
+    &:after,
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border: 2px solid red;
+      transition: transform 0.5s;
+    }
+    &:after {
+      transform: translate(-4px, 4px);
+    }
+    &:before {
+      transform: translate(-3px, -3px);
+    }
+    &:hover &:after,
+    &:before {
+      transform: translate(0);
+    }
+  }
+  .two {
+    position: relative;
+    background-color: yellow;
+  }
 }

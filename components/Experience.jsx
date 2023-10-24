@@ -22,16 +22,15 @@ const Experience = () => {
                   <h3 className="mb-2 lg:ml-4 text-xs md:text-xl lg:text-2xl font-normal  text-gray-400 dark:text-gray-500">
                     Front-end Developer | April 2022 - July 2022
                   </h3>
-                  <p className=" text-xl lg:ml-4  md:text-2xl lg:text-3xl font-Dongle text-gray-500 dark:text-gray-400">
-                    <ul className="list-disc pl-4 lg:pl-8">
-                      <li>Worked on an e-commerce project.</li>
-                      <li>Built complete front-end from scratch.</li>
-                      <li>
-                        Worked with technologies - Reactjs, Redux, Material Ui,
-                        Tailwind and Bootstrap.
-                      </li>
-                    </ul>
-                  </p>
+
+                  <ul className="list-disc pl-4 lg:pl-8 text-xl md:text-2xl lg:ml-4 lg:text-3xl font-Dongle text-gray-500 dark:text-gray-400">
+                    <li>Worked on an e-commerce project.</li>
+                    <li>Built complete front-end from scratch.</li>
+                    <li>
+                      Worked with technologies - Reactjs, Redux, Material Ui,
+                      Tailwind and Bootstrap.
+                    </li>
+                  </ul>
                 </li>
                 <li className="ml-6 mb-10">
                   <span className="absolute lg:text-xl flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 lg:-left-5 bg-purple-200 rounded-full -left-3 ring-8 ring-white ">
@@ -44,15 +43,14 @@ const Experience = () => {
                   <h3 className="mb-2 text-xs lg:ml-4 md:text-xl lg:text-2xl font-normal  text-gray-400 dark:text-gray-500">
                     July 2020 - Present
                   </h3>
-                  <p className=" text-xl md:text-2xl lg:ml-4 lg:text-3xl font-Dongle text-gray-500 dark:text-gray-400">
-                    <ul className="list-disc pl-4 lg:pl-8">
-                      <li> Mentored more than 50 students.</li>
-                      <li>
-                        Worked on strengthening concepts in various domains like
-                        programming and mathematics.
-                      </li>
-                    </ul>
-                  </p>
+
+                  <ul className="list-disc pl-4 lg:pl-8 text-xl md:text-2xl lg:ml-4 lg:text-3xl font-Dongle text-gray-500 dark:text-gray-400">
+                    <li> Mentored more than 50 students.</li>
+                    <li>
+                      Worked on strengthening concepts in various domains like
+                      programming and mathematics.
+                    </li>
+                  </ul>
                 </li>
               </ol>
             </div>
